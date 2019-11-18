@@ -1,0 +1,28 @@
+.nb-cont {
+  background-color: pink;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  height: 40px;
+}
+.logout-but, .nb-link {
+  border: 1px solid white;
+  background: pink;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  height: 20px;
+  display: flex;
+  min-width: 100px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 30px;
+}
+.logout-but:hover, .nb-link:hover {
+  cursor: pointer;
+  background: lightcoral;
+  font-weight: 600;
+}
