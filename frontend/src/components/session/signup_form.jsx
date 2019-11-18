@@ -36,7 +36,6 @@ export default class SignupForm extends React.Component {
     this.props.signup(user, this.props.history);
   }
   renderErrors() {
-    console.log(this.state.errors)
     return(
       <ul>
         {Object.keys(this.state.errors).map((error, idx) => (
